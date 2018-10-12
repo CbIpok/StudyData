@@ -13,5 +13,93 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\RowSavers">
+      <UniqueIdentifier>{9d80b40b-b7b7-44eb-a105-57b5b87bdf22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rows">
+      <UniqueIdentifier>{fcf16243-e835-4f65-92db-57e58ba57c59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RowSavers">
+      <UniqueIdentifier>{6e8e815d-f2e4-44ed-ae55-131258fbb2b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RowReaders">
+      <UniqueIdentifier>{f7b8a58f-4300-43bc-8109-c408c616f47d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RowReaders">
+      <UniqueIdentifier>{adff9e85-ae07-488e-b8f5-9217d37da8d0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CoursesRow.h">
+      <Filter>Header Files\Rows</Filter>
+    </ClInclude>
+    <ClInclude Include="StudentRow.h">
+      <Filter>Header Files\Rows</Filter>
+    </ClInclude>
+    <ClInclude Include="TeacherRow.h">
+      <Filter>Header Files\Rows</Filter>
+    </ClInclude>
+    <ClInclude Include="RowSaver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CourseRowSaver.h">
+      <Filter>Header Files\RowSavers</Filter>
+    </ClInclude>
+    <ClInclude Include="StudentRowSaver.h">
+      <Filter>Header Files\RowSavers</Filter>
+    </ClInclude>
+    <ClInclude Include="TeacherRowSaver.h">
+      <Filter>Header Files\RowSavers</Filter>
+    </ClInclude>
+    <ClInclude Include="RowReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Row.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CourseRowReader.h">
+      <Filter>Header Files\RowReaders</Filter>
+    </ClInclude>
+    <ClInclude Include="StudentRowReader.h">
+      <Filter>Header Files\RowReaders</Filter>
+    </ClInclude>
+    <ClInclude Include="TeatherRowReader.h">
+      <Filter>Header Files\RowReaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Table.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CourseRowSaver.cpp">
+      <Filter>Source Files\RowSavers</Filter>
+    </ClCompile>
+    <ClCompile Include="StudentRowSaver.cpp">
+      <Filter>Source Files\RowSavers</Filter>
+    </ClCompile>
+    <ClCompile Include="TeacherRowSaver.cpp">
+      <Filter>Source Files\RowSavers</Filter>
+    </ClCompile>
+    <ClCompile Include="RowSaver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CourseRowReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RowReader.cpp">
+      <Filter>Source Files\RowReaders</Filter>
+    </ClCompile>
+    <ClCompile Include="StudentRowReader.cpp">
+      <Filter>Source Files\RowReaders</Filter>
+    </ClCompile>
+    <ClCompile Include="TeatherRowReader.cpp">
+      <Filter>Source Files\RowReaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Table.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
