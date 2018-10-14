@@ -2,7 +2,7 @@
 #include <vector>
 #include "Row.h"
 
-struct Courses:public Row
+struct CourseRow:public Row
 {
 	int teacher;
 	std::vector<int> students;

@@ -5,7 +5,7 @@ class RowSaver
 {
 public:
 	RowSaver();
-	virtual void save(const Row& row,const std::ostream& ostream) = 0;
+	virtual void save(Row * row, std::ostream & ostream) = 0;
 	virtual ~RowSaver() = default;
 
 private:

@@ -140,29 +140,36 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="CourseRowReader.h" />
+    <ClInclude Include="CourseTable.h" />
     <ClInclude Include="Row.h" />
     <ClInclude Include="CourseRowSaver.h" />
     <ClInclude Include="CoursesRow.h" />
     <ClInclude Include="RowReader.h" />
+    <ClInclude Include="TableComponents.h" />
     <ClInclude Include="RowSaver.h" />
     <ClInclude Include="StudentRow.h" />
     <ClInclude Include="StudentRowReader.h" />
     <ClInclude Include="StudentRowSaver.h" />
+    <ClInclude Include="StudentTable.h" />
     <ClInclude Include="Table.h" />
     <ClInclude Include="TeacherRow.h" />
     <ClInclude Include="TeacherRowSaver.h" />
+    <ClInclude Include="TeacherTable.h" />
     <ClInclude Include="TeatherRowReader.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CourseRowReader.cpp" />
     <ClCompile Include="CourseRowSaver.cpp" />
+    <ClCompile Include="CourseTable.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="RowReader.cpp" />
     <ClCompile Include="RowSaver.cpp" />
     <ClCompile Include="StudentRowReader.cpp" />
     <ClCompile Include="StudentRowSaver.cpp" />
+    <ClCompile Include="StudentTable.cpp" />
     <ClCompile Include="Table.cpp" />
     <ClCompile Include="TeacherRowSaver.cpp" />
+    <ClCompile Include="TeacherTable.cpp" />
     <ClCompile Include="TeatherRowReader.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

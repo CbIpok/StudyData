@@ -16,9 +16,6 @@
     <Filter Include="Header Files\RowSavers">
       <UniqueIdentifier>{9d80b40b-b7b7-44eb-a105-57b5b87bdf22}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\Rows">
-      <UniqueIdentifier>{fcf16243-e835-4f65-92db-57e58ba57c59}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\RowSavers">
       <UniqueIdentifier>{6e8e815d-f2e4-44ed-ae55-131258fbb2b7}</UniqueIdentifier>
     </Filter>
@@ -27,6 +24,15 @@
     </Filter>
     <Filter Include="Source Files\RowReaders">
       <UniqueIdentifier>{adff9e85-ae07-488e-b8f5-9217d37da8d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rows">
+      <UniqueIdentifier>{fcf16243-e835-4f65-92db-57e58ba57c59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tables">
+      <UniqueIdentifier>{5b25c8d2-c2aa-4520-8bb8-a0de4e4cde05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tables">
+      <UniqueIdentifier>{1731a831-0f35-46b8-8b21-8584fcc52f54}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -69,6 +75,18 @@
     <ClInclude Include="Table.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="StudentTable.h">
+      <Filter>Header Files\Tables</Filter>
+    </ClInclude>
+    <ClInclude Include="TeacherTable.h">
+      <Filter>Header Files\Tables</Filter>
+    </ClInclude>
+    <ClInclude Include="CourseTable.h">
+      <Filter>Header Files\Tables</Filter>
+    </ClInclude>
+    <ClInclude Include="TableComponents.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -100,6 +118,15 @@
     </ClCompile>
     <ClCompile Include="Table.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StudentTable.cpp">
+      <Filter>Source Files\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="TeacherTable.cpp">
+      <Filter>Source Files\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="CourseTable.cpp">
+      <Filter>Source Files\Tables</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
